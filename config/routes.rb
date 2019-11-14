@@ -5,5 +5,5 @@ Rails.application.routes.draw do
   # resources :ingredients
     resources :doses, only: [:create, :new]
   end
-
+  resources :doses, only: [:destroy]
 end
