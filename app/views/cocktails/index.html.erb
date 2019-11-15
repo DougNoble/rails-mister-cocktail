@@ -1,8 +1,14 @@
 
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/background.png);">
+  <div class="container">
+    <h1>This page brings you <strong>ALCOHOL</strong>!</h1>
+    <p>Change your life and learn to make cocktails.</p>
+    <%= link_to "Create new cocktail", new_cocktail_path, class: "btn btn-success btn-lg" %>
+  </div>
+</div>
 
-  <h1><%= link_to "Create new cocktail", new_cocktail_path  %></h1>
 
-  <p>Doug's list of Alcoholic libations</p>
+  <h1>Doug's list of Alcoholic libations</h1>
 
   <% @cocktails.each do |cocktail| %>
 
