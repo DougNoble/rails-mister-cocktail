@@ -1,0 +1,14 @@
+
+.cards_grid {
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card {
+  height: 300px;
+  width: 300px;
+}
